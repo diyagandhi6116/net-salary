@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    float  physics,maths,chemistry,avg,total;
+    printf("Enter the value of physics,maths,chemistry respectively:");
+    scanf("%f,%f,%f",&physics,&maths,&chemistry);
+    total=physics+maths+chemistry;
+    printf("Total of three subjects =%f",total);
+    avg=total/3.0;
+    printf("Avg of them =%f",avg);
+    return 0;
+}
