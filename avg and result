@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    float  physics,maths,chemistry,avg,total;
+    printf("Enter the value of physics,maths,chemistry respectively:");
+    scanf("%f,%f,%f",&physics,&maths,&chemistry);
+    total=physics+maths+chemistry;
+    printf("Total of three subjects =%f",total);
+    avg=total/3.0;
+    printf("Avg of them =%f",avg);
+    if(avg>=70)
+      {
+        printf("Distinction");
+      }
+      else
+       {
+        if(avg>=60)
+        {
+            printf("First");
+        }
+        if(avg>=50)
+        {
+            printf("Second");
+        }
+        if(avg<35)
+        {
+            printf("Fail");
+        }
+
+       }
+    return 0;
+}
