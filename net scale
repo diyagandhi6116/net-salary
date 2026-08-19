@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    float  grossscale,netscale;
+    printf("Enter the value of gross sacle:");
+    scanf("%f",&grossscale);
+    printf("/nNet scale=gross scale-10 per discount of gross scale");
+    netscale =grossscale-(10.0/100.0*grossscale);
+    printf("/nNetscale is =%f",netscale);
+    return 0;
+}
