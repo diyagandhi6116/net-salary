@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    float  gross,allow,deduct,net;
+    printf("Enter the value of gross,allow,deduct respectively:");
+    scanf("%f,%f,%f",&gross,&allow,&deduct);
+    printf("Net salary=Gross+Allow-Deduct");
+    net=gross+(10.0/100.0*gross)-(3.0/100.0*gross);
+    printf("Net salary =%f",net);
+    return 0;
+}
